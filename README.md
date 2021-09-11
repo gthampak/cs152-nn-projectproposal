@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Guy's cs152 Neural Network Project Proposal: 
 
 You can use the [editor on GitHub](https://github.com/gthampak/gthampak.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
