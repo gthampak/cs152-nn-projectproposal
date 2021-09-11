@@ -1,37 +1,18 @@
-## Guy's cs152 Neural Network Project Proposal: 
+# Title: NPL - Translation - Keyword Extraction - Text Summary
 
-You can use the [editor on GitHub](https://github.com/gthampak/gthampak.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Inspiration
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My initial thought was to 'improve' google translate. I am (relatively) fluent in three languages (English, Thai, Chinese) and have studied all three concurrently for most of my life. Many times, I would use google translate to help me type in Thai just because typing in Thai is very difficult especially because I don't do it very often. I would type English sentences I predict would loosely translate into the Thai words that I want and copy and paste the words I need onto whatever Thai thing I'm working on. Working with these three languages made me realize the subtle differences in the meanings of words that are supposed to be direct translations of each other but don't feel the same. Google translate is much imrpvoed now, but many times the sentences and paragraphs it spit out had many funny parts and many useful parts.
 
-### Markdown
+I think it would be cool if we could have a translation tool that would retain as much information and "vibes" as possible as we translate it through several languages (kinda like playing the game telephone/chinese whispers, but instead of phrases/sentences going through people, it goes through a nerual network or translation machine).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Project Description
 
-```markdown
-Syntax highlighted code block
+Have a translation tool that loses as little information as possible and remain as accurate as possible after traversing through several languages. As I was thinking about the ideas behind this network and as I read more about neural network projects involving natural language processing, I felt that this project shares many similarities with projects surrounding keyword extraction and text summary. All of them require the network to pinpoint the information and words that are important (to retain in the case of translation, to extract for keyword translate, and to emphasize for text summary). I'm not entirely sure yet what the direction of the project will be exactly, but these are some of things/areas of research I've been thinking about and am exciting to discuss/brainstorm more about.
 
-# Header 1
-## Header 2
-### Header 3
+## Project Goals
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gthampak/gthampak.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Figure out what would be an appropriate dataset of this project (particularly for the translation aspect).
+2. Explore the issues/problems of current available translation tools.
+3. Discuss the expandability/extendability of a transltion neural network (any other uses // any minor modifications that would allow people in similar areas to use it).
+4. Train a neural network that retains information, emphasizes accuracy (whatever that means), and has good grammar (after serveral rounds of translation).
