@@ -1,4 +1,4 @@
-# Title: NPL - Translation - Keyword Extraction - Text Summary
+# NLP - Translation - Keyword Extraction - Text Summary
 
 ## Inspiration
 
